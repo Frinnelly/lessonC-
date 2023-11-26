@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("ВВЕДИТЕ ИМЯ ПОЛЬЗОВАТЕЛЯ")
+string username = Console.ReadLine();
+
+if(username == "Masha")
+{
+    Console.WriteLine("Ура, это же Маша");
+}
+else
+{
+    Console.Write("privet, ");
+    Console.WriteLine(username);
+}
